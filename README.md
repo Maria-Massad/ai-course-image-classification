@@ -1,14 +1,14 @@
 # AI Course Image Classification
 
 ## Project Overview
-This project is an Artificial Intelligence course project that focuses on comparing different machine learning models for image classification.
+This project is an Artificial Intelligence course project that focuses on comparing different machine learning models for image classification. The objective is to evaluate and analyze the performance of classical machine learning approaches and a neural network model on a multi-class image dataset.
 
 The implemented models include:
-- Naive Bayes Classifier
-- Decision Tree Classifier (with hyperparameter tuning)
-- Feedforward Neural Network (MLP)
+- Naive Bayes Classifier  
+- Decision Tree Classifier (with hyperparameter tuning)  
+- Feedforward Neural Network (MLP)  
 
-The goal is to analyze and compare the performance of classical machine learning approaches and neural networks on a multi-class image dataset.
+The project emphasizes proper data preprocessing, model training, evaluation, and performance comparison.
 
 ---
 
@@ -16,8 +16,13 @@ The goal is to analyze and compare the performance of classical machine learning
 - Image preprocessing (resizing, normalization, flattening)
 - Dimensionality reduction using Principal Component Analysis (PCA)
 - Supervised learning for image classification
-- Model optimization using GridSearchCV
-- Performance evaluation using accuracy, precision, recall, F1-score, and confusion matrices
+- Hyperparameter tuning using GridSearchCV
+- Performance evaluation using:
+  - Accuracy
+  - Precision
+  - Recall
+  - F1-score
+  - Confusion matrices
 
 ---
 
@@ -27,20 +32,28 @@ The goal is to analyze and compare the performance of classical machine learning
 - Images resized to 64×64 pixels
 - Pixel values normalized to the range [0, 1]
 
+### Dataset Access
+Due to size limitations, the dataset is not included directly in this repository.
+
+You can access the dataset using the following Google Drive link:  
+https://drive.google.com/drive/folders/1bCJrb_FOuPen7TxMlJFXMzB_VuPb6Kxj?usp=sharing
+
+The dataset is provided for educational and academic purposes.
+
 ---
 
 ## Tools & Libraries
-- Python
-- NumPy
-- Pandas
-- Scikit-learn
-- TensorFlow (Keras utilities)
-- Matplotlib
-- Seaborn
+- Python  
+- NumPy  
+- Pandas  
+- Scikit-learn  
+- TensorFlow (Keras utilities)  
+- Matplotlib  
+- Seaborn  
 
 ---
 
 ## How to Run
-1. Install dependencies:
+1. Clone the repository:
    ```bash
-   pip install -r requirements.txt
+   git clone https://github.com/Maria-Massad/ai-course-image-classification.git
